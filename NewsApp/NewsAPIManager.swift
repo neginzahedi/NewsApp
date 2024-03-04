@@ -16,6 +16,14 @@ class NewsAPIManager {
     
     @Published var articles = [Article]()
     
+    private init(){}
+    
+    public func fetchTopNews() async throws -> [Article] {
+        let url = NewsAPIManager.topHeadLinesURL!
+        let (data, _) = try await URLSession.shared.data(from: url)
+        let responseData = try JSONDecoder().decode(NewsAPIResponse.self, from: data)
+        return responseData.articles
+    }
 }
 
 // MARK: - Models
