@@ -8,6 +8,9 @@
 .AppleDouble
 .LSOverride
 
+### Swift files ###
+Configuration.swift
+
 ## User settings
 xcuserdata/
 
