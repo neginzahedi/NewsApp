@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class NewsAPIManager {
+    
+    // MARK: - Properties
+    static let shared = NewsAPIManager()
+    static let topHeadLinesURL = URL(string:"https://newsapi.org/v2/top-headlines?country=us&apiKey=\(Configuration.myAPIKey)")
+}
