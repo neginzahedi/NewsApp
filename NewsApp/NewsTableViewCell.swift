@@ -2,8 +2,6 @@
 //  NewsTableViewCell.swift
 //  NewsApp
 //
-//  Created by Negin Zahedi on 2024-03-06.
-//
 
 import UIKit
 
@@ -24,6 +22,7 @@ class NewsTableViewCellViewModel {
 class NewsTableViewCell: UITableViewCell {
     
     // MARK: - Properties
+    
     static let identifier = "NewsTableViewCell"
     
     private let tableViewCellTitle: UILabel = {
@@ -49,6 +48,7 @@ class NewsTableViewCell: UITableViewCell {
     }()
     
     // MARK: - init
+
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.setupUI()
@@ -59,6 +59,7 @@ class NewsTableViewCell: UITableViewCell {
     }
     
     // MARK: - Setup UI
+    
     private func setupUI(){
         self.contentView.addSubview(tableViewCellTitle)
         self.contentView.addSubview(tableViewCellSubTitleLabel)
@@ -97,6 +98,7 @@ class NewsTableViewCell: UITableViewCell {
     }
     
     // MARK: - Configure
+    
     public func configure(with viewModel:  NewsTableViewCellViewModel){
         tableViewCellTitle.text = viewModel.title
         tableViewCellSubTitleLabel.text = viewModel.author
