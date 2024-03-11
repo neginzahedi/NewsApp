@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     private func fetchData() {
         Task {
             do {
-                self.articles = try await NewsAPIManager.shared.fetchTopNews()
+                self.articles = try await NetworkManager.shared.fetchTopNews()
                 
                 self.viewModels = articles.compactMap({ article in
                     NewsTableViewCellViewModel(

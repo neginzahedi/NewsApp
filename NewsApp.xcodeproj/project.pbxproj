@@ -18,7 +18,7 @@
 		0FBC6F722B967F8A004C8830 /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBC6F712B967F8A004C8830 /* NewsAppTests.swift */; };
 		0FBC6F7C2B967F8A004C8830 /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBC6F7B2B967F8A004C8830 /* NewsAppUITests.swift */; };
 		0FBC6F7E2B967F8A004C8830 /* NewsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBC6F7D2B967F8A004C8830 /* NewsAppUITestsLaunchTests.swift */; };
-		0FBC6F8B2B9682DE004C8830 /* NewsAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBC6F8A2B9682DE004C8830 /* NewsAPIManager.swift */; };
+		0FBC6F8B2B9682DE004C8830 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBC6F8A2B9682DE004C8830 /* NetworkManager.swift */; };
 		0FBC6F8F2B9683EB004C8830 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBC6F8E2B9683EB004C8830 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,7 @@
 		0FBC6F772B967F8A004C8830 /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBC6F7B2B967F8A004C8830 /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		0FBC6F7D2B967F8A004C8830 /* NewsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0FBC6F8A2B9682DE004C8830 /* NewsAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIManager.swift; sourceTree = "<group>"; };
+		0FBC6F8A2B9682DE004C8830 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0FBC6F8E2B9683EB004C8830 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,7 +112,7 @@
 				0FBC6F5C2B967F89004C8830 /* SceneDelegate.swift */,
 				0FBC6F5E2B967F89004C8830 /* ViewController.swift */,
 				0FB756A32B98D8170067FFFA /* NewsTableViewCell.swift */,
-				0FBC6F8A2B9682DE004C8830 /* NewsAPIManager.swift */,
+				0FBC6F8A2B9682DE004C8830 /* NetworkManager.swift */,
 				0F71C3912B9F7EAA00AF8485 /* DataModels.swift */,
 				0FBC6F8E2B9683EB004C8830 /* Configuration.swift */,
 				0FBC6F602B967F89004C8830 /* Main.storyboard */,
@@ -272,7 +272,7 @@
 			files = (
 				0FBC6F5F2B967F89004C8830 /* ViewController.swift in Sources */,
 				0FBC6F8F2B9683EB004C8830 /* Configuration.swift in Sources */,
-				0FBC6F8B2B9682DE004C8830 /* NewsAPIManager.swift in Sources */,
+				0FBC6F8B2B9682DE004C8830 /* NetworkManager.swift in Sources */,
 				0FB756A42B98D8170067FFFA /* NewsTableViewCell.swift in Sources */,
 				0F71C3922B9F7EAA00AF8485 /* DataModels.swift in Sources */,
 				0FBC6F5B2B967F89004C8830 /* AppDelegate.swift in Sources */,
